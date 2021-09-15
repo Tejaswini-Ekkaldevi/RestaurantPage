@@ -1,0 +1,22 @@
+.items{
+    display: grid;
+    padding: 40px 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
+}
+.item img{
+    width: 60%;
+    height: 250px;
+    cursor: pointer;
+    margin-left: 160px;
+    margin-right: 90px;
+}
+.item h4{
+    padding: 5px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,79 @@
+h1,p{
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-size: 18px;
+}
+h1{
+    color: red;
+    font-size: 30px;
+}
+ footer{
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(238, 234, 234);
+    color: gray;
+    margin: 0 auto;
+
+} 
+footer img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-left{
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+input{
+    margin: 0;
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 0;
+    border: none;
+}
+#sub{
+    padding:6px 20px;
+    width:40%;
+    font-size: 15px;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    border-radius: 0;
+}
+#sub:hover{
+    background-color: lightslategray;
+}
+.form{
+    text-align: center;
+    background-color: rgba(194, 192, 192, 0.952);
+    text-align: center;
+    font-size:large;
+    padding: 100px 80px;
+    border-radius: 10px;
+}
+.contact-form{
+    width: 35%;
+    height: 40%;
+    margin: 35px 550px;
+}
+textarea{
+    width: 100%;
+    height: 90px;
+
+}

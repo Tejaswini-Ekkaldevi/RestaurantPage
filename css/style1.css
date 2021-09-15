@@ -1,0 +1,44 @@
+html {
+   /* background-image: url("img3.png");
+    background-attachment: fixed;
+    background-size: cover;*/
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Yusei Magic', sans-serif;
+
+  }
+nav{
+   width: 380px;
+   margin: 0 auto;
+   position: relative;
+}
+.tab{
+    height: 45px;
+    padding-right: 20px;
+
+}
+.tab li{
+    border-radius: 5px 5px 0px 0px;
+    margin-left: 20px;
+    padding-top: 8px;
+}
+.tab li.active{
+    background-color: blueviolet;
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+ul li{
+    list-style: none;
+    font-size: 18px;
+    color: rgb(20, 19, 19);
+    float: left;
+}
+ul li:hover{
+    cursor: pointer;
+    color:grey;
+}
